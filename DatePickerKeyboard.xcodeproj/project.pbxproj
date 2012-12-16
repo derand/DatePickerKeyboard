@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5B22B17167E1F3D0083CFA3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B22B16167E1F3D0083CFA3 /* UIKit.framework */; };
+		A5B22B19167E1F3D0083CFA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B22B18167E1F3D0083CFA3 /* Foundation.framework */; };
+		A5B22B1B167E1F3D0083CFA3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5B22B1A167E1F3D0083CFA3 /* CoreGraphics.framework */; };
+		A5B22B21167E1F3D0083CFA3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5B22B1F167E1F3D0083CFA3 /* InfoPlist.strings */; };
+		A5B22B23167E1F3D0083CFA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22B22167E1F3D0083CFA3 /* main.m */; };
+		A5B22B27167E1F3D0083CFA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5B22B26167E1F3D0083CFA3 /* AppDelegate.m */; };
+		A5B22B29167E1F3D0083CFA3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B22B28167E1F3D0083CFA3 /* Default.png */; };
+		A5B22B2B167E1F3D0083CFA3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B22B2A167E1F3D0083CFA3 /* Default@2x.png */; };
+		A5B22B2D167E1F3D0083CFA3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5B22B2C167E1F3D0083CFA3 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5B22B12167E1F3D0083CFA3 /* DatePickerKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePickerKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B22B16167E1F3D0083CFA3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5B22B18167E1F3D0083CFA3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5B22B1A167E1F3D0083CFA3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5B22B1E167E1F3D0083CFA3 /* DatePickerKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatePickerKeyboard-Info.plist"; sourceTree = "<group>"; };
+		A5B22B20167E1F3D0083CFA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5B22B22167E1F3D0083CFA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5B22B24167E1F3D0083CFA3 /* DatePickerKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatePickerKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		A5B22B25167E1F3D0083CFA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5B22B26167E1F3D0083CFA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; usesTabs = 1; };
+		A5B22B28167E1F3D0083CFA3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5B22B2A167E1F3D0083CFA3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5B22B2C167E1F3D0083CFA3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5B22B0F167E1F3D0083CFA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B22B17167E1F3D0083CFA3 /* UIKit.framework in Frameworks */,
+				A5B22B19167E1F3D0083CFA3 /* Foundation.framework in Frameworks */,
+				A5B22B1B167E1F3D0083CFA3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5B22B07167E1F3D0083CFA3 = {
+			isa = PBXGroup;
+			children = (
+				A5B22B1C167E1F3D0083CFA3 /* DatePickerKeyboard */,
+				A5B22B15167E1F3D0083CFA3 /* Frameworks */,
+				A5B22B13167E1F3D0083CFA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5B22B13167E1F3D0083CFA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22B12167E1F3D0083CFA3 /* DatePickerKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5B22B15167E1F3D0083CFA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22B16167E1F3D0083CFA3 /* UIKit.framework */,
+				A5B22B18167E1F3D0083CFA3 /* Foundation.framework */,
+				A5B22B1A167E1F3D0083CFA3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5B22B1C167E1F3D0083CFA3 /* DatePickerKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22B25167E1F3D0083CFA3 /* AppDelegate.h */,
+				A5B22B26167E1F3D0083CFA3 /* AppDelegate.m */,
+				A5B22B1D167E1F3D0083CFA3 /* Supporting Files */,
+			);
+			path = DatePickerKeyboard;
+			sourceTree = "<group>";
+		};
+		A5B22B1D167E1F3D0083CFA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5B22B1E167E1F3D0083CFA3 /* DatePickerKeyboard-Info.plist */,
+				A5B22B1F167E1F3D0083CFA3 /* InfoPlist.strings */,
+				A5B22B22167E1F3D0083CFA3 /* main.m */,
+				A5B22B24167E1F3D0083CFA3 /* DatePickerKeyboard-Prefix.pch */,
+				A5B22B28167E1F3D0083CFA3 /* Default.png */,
+				A5B22B2A167E1F3D0083CFA3 /* Default@2x.png */,
+				A5B22B2C167E1F3D0083CFA3 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5B22B11167E1F3D0083CFA3 /* DatePickerKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5B22B30167E1F3D0083CFA3 /* Build configuration list for PBXNativeTarget "DatePickerKeyboard" */;
+			buildPhases = (
+				A5B22B0E167E1F3D0083CFA3 /* Sources */,
+				A5B22B0F167E1F3D0083CFA3 /* Frameworks */,
+				A5B22B10167E1F3D0083CFA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerKeyboard;
+			productName = DatePickerKeyboard;
+			productReference = A5B22B12167E1F3D0083CFA3 /* DatePickerKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5B22B09167E1F3D0083CFA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = derand;
+			};
+			buildConfigurationList = A5B22B0C167E1F3D0083CFA3 /* Build configuration list for PBXProject "DatePickerKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5B22B07167E1F3D0083CFA3;
+			productRefGroup = A5B22B13167E1F3D0083CFA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5B22B11167E1F3D0083CFA3 /* DatePickerKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5B22B10167E1F3D0083CFA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B22B21167E1F3D0083CFA3 /* InfoPlist.strings in Resources */,
+				A5B22B29167E1F3D0083CFA3 /* Default.png in Resources */,
+				A5B22B2B167E1F3D0083CFA3 /* Default@2x.png in Resources */,
+				A5B22B2D167E1F3D0083CFA3 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5B22B0E167E1F3D0083CFA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5B22B23167E1F3D0083CFA3 /* main.m in Sources */,
+				A5B22B27167E1F3D0083CFA3 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5B22B1F167E1F3D0083CFA3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5B22B20167E1F3D0083CFA3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5B22B2E167E1F3D0083CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5B22B2F167E1F3D0083CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5B22B31167E1F3D0083CFA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePickerKeyboard/DatePickerKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "DatePickerKeyboard/DatePickerKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5B22B32167E1F3D0083CFA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatePickerKeyboard/DatePickerKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "DatePickerKeyboard/DatePickerKeyboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5B22B0C167E1F3D0083CFA3 /* Build configuration list for PBXProject "DatePickerKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B22B2E167E1F3D0083CFA3 /* Debug */,
+				A5B22B2F167E1F3D0083CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5B22B30167E1F3D0083CFA3 /* Build configuration list for PBXNativeTarget "DatePickerKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5B22B31167E1F3D0083CFA3 /* Debug */,
+				A5B22B32167E1F3D0083CFA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5B22B09167E1F3D0083CFA3 /* Project object */;
+}
