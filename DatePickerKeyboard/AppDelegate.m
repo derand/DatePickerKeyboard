@@ -127,7 +127,7 @@
 
 #pragma mark -
 
--(void)doneButtonPressed:(id)sender
+- (void)doneButtonPressed:(id)sender
 {
 	self.dt = [_pickerView date];
 	
@@ -135,7 +135,7 @@
 	[_pickerView removeTarget:self action:@selector(dateChanged) forControlEvents:UIControlEventValueChanged];
 }
 
--(void)cancelButtonPressed:(id)sender
+- (void)cancelButtonPressed:(id)sender
 {
 	self.dt = _dt;
 	
